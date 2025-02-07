@@ -301,8 +301,10 @@ except the Home and About Us page. */
 
 /* This is the configuration for the description of the About Us Page */
 .Description-AboutUs{
+    margin-right: 350px;
     align-items: center;
     text-align: center;
+    font-size: medium;
 }
 
 
@@ -351,7 +353,8 @@ on the Hstox book a session page. */
 /* These are the media screen configurations for the buttons of each page
  on various mobile devices and a tablet for the Hstox Website. */
 
-/* This media query is optimised for smaller mini phone screens. */
+/* This media query is optimised for the buttons and navigation
+on smaller mini phone screens. */
 @media all and (max-width: 480px){
  nav{ 
      width: 13%;
@@ -368,7 +371,8 @@ on the Hstox book a session page. */
     }
 }
 
-/* This media query is optimised for standard phone screens. */
+/* This media query is optimised for the buttons and navigation
+on  standard phone screens. */
 @media screen and (max-width: 576px){
     nav{
         width: 17%;
@@ -386,7 +390,8 @@ on the Hstox book a session page. */
 }
 }
 
-/* This media query is optimised for larger phone screens.*/
+/* This media query is optimised for the buttons and navigation
+on  larger phone screens.*/
 @media all and (max-width: 767px){
     nav{
         width: 20%;
@@ -405,7 +410,8 @@ on the Hstox book a session page. */
 }
 }
 
-/* This media query is for tablet screens. */
+/* This media query is for the buttons and navigation
+on tablet screens. */
 @media all and (max-width: 1024px){
 
 
@@ -428,3 +434,81 @@ on the Hstox book a session page. */
         display: flex;
         text-align: justify;
     }
+
+
+/* This media query is for the booking form on
+smaller phones */
+@media all and (max-width: 480px){
+.form-book{
+    text-align: justify;
+    width: 10%;
+
+
+}
+.book-input{
+    text-align: justify;
+    width: 13%;
+}
+.book-submit-button{
+    text-align: justify;
+   width: 14%;
+}
+}
+
+/* This media query is for the booking form on 
+standard phone screens */
+@media all and (max-width: 576px){
+.form-book{
+    text-align: justify;
+    width: 23%;
+
+}
+.book-input{
+    text-align: justify;
+    width: 18%;
+}
+.book-submit-button{
+    text-align: justify;
+    width: 19%;
+}
+}
+
+/* This media query is for the booking form on bigger
+phone screens*/
+@media all and (max-width: 767px){
+.form-book{
+    text-align: justify;
+    width: 40%;
+}
+.book-input{
+    text-align: justify;
+    width: 35%;
+
+}
+.book-submit-button{
+    text-align: justify;
+    width: 34%;
+
+
+}
+
+
+
+}
+
+/* This media query is for the booking form on 
+tablets*/
+@media all and (max-width: 1024px){
+    .form-book{
+        text-align: justify;
+        width: 100%;
+    }
+.book-input{
+    text-align: justify;
+    width: 98%;
+}
+.book-submit-button{
+    text-align: justify;
+    width: 99%;
+}
+}
