@@ -1,6 +1,5 @@
 
-
-/* This is the CSS for my Home Page Title */
+/* This is the CSS for the Hstox Home Page Title */
 .HomeTitle{
     color: yellowgreen;
     background-color:#5CE1E6;
@@ -9,7 +8,8 @@
 font-size: 20;
 }
 
-/* This is the CSS code configuration for the first line of the catchprase for my Home Page */
+
+/* This is the CSS code configuration for the first line of the catchprase for Hstox Home Page */
 .catchprase{
 
 color: black;
@@ -20,14 +20,12 @@ font-size: 100px;
 }
 
 
-/* This is the CSS code configuration for the second line of the catchprase for my Home Page */
+
+/* This is the CSS code configuration for the second line of the catchprase for the Hstox Home Page */
 
 .catchprase2{
     color:black;
     text-align: center;
-    /*
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    */
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 85px;  
     font-style: italic;  
@@ -35,7 +33,9 @@ font-size: 100px;
 }
 
 
-/* This is the CSS code configuration for description on my Home Page */
+
+
+/* This is the CSS code configuration for description on the Hstox Home Page */
 
 .HomeDescription{
 background-color: black;
@@ -44,7 +44,10 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 font-size: 25px;
 }
 
-/* This is the CSS code configuration for the Learn more hyperlinked button for my Home Page */
+
+
+
+/* This is the CSS code configuration for the Learn more hyperlinked button for the Hstox Home Page */
 
 .HomeLearnMore{
     background-color: gold;
@@ -56,7 +59,9 @@ font-size: 25px;
 }
 
 
-/* This is the CSS code configuration for the hover effect for the learn more hyperlinked button in my Home Page */
+
+
+/* This is the CSS code configuration for the hover effect for the learn more hyperlinked button on the Hstox Home Page */
 .HomeLearnMore:hover{
     background-color: white;
     color: black
@@ -64,34 +69,14 @@ font-size: 25px;
 
 
 
-/* This is the configuration for my logo on the home page. */
+/* This is the configuration for Hstox logo on the home page. */
 
 .logo{
 background-color: #5CE1E6;
 }
 
 
-/* These are the configurations for my buttons div. */
-.buttons{
-text-align: right;
-background-color: brown;
-float: right;
-background-color:brown;
-}
-
-
-
-.buttons:hover{
-
-    background-color: greenyellow;
-    outline: transparent;
-    transition: 0.6s;
-
-}
-
-
-
-
+/* This is the configuration for paragraphs on each Hstox page. */
 
 p{
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -111,7 +96,6 @@ background-color: #5CE1E6;
 /* This is the configuration for the largest heading on each page of the Hstox Website. */
 h1{
 color: #5CE1E6;
-/* background-color: black;  */
 color: black;
 text-decoration: underline;
 text-align: center;
@@ -119,7 +103,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 }
 
-
+/* This is the CSS code configuration for description on the Awards Page*/
 .Description{
 color: greenyellow;
 background-color: black;
@@ -145,19 +129,25 @@ text-align: center;
 }
 
 
+
 /* This is the configuration for the Nostalgia Award on the Awards page of the Hstox Website. */
 .NostalgiaAward{
 color: black;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+
 /* This is the configuration for the Most creative Award  on the Awards page of the Hstox Website. */
 }
-
 .Mcreative{
 text-align: right;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+
+
+
+
+
 
 /* This is the configuration for the graphic design div on the Our works Page of the Hstox Website. */
 .Graphicdesign{
@@ -172,6 +162,7 @@ color: black;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+
 
 /* This is the configuration for the Commercial photograph div on the Our works Page of the Hstox Website. */
 .Commercialphotograph{
@@ -208,14 +199,6 @@ on the Book a session page of the Hstox Website. */
     margin-top: 20px;
 }
 
-/* These are the configurations for my buttons div. */
-.buttons{
-    background-color: brown;
-}
-#button__1{
-    background-color: brown;
-}
-
 
 
 /* This is the CSS configurations for my navigation bar and menu buttons on the top right
@@ -226,9 +209,9 @@ of each page on the Hstox Website.. */
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: mediumturquoise; /* Keeps my background color */
+        background-color: mediumturquoise; /* Keeps my background colour */
         padding: 20px;
-        width: 200px; /* Adjust width as needed */
+        width: 200px; /* Adjusts width as needed */
         position: fixed; /* Keeps it in place while scrolling */
         right: 20px; 
         top: 40px;
@@ -240,7 +223,7 @@ of each page on the Hstox Website.. */
 
 .menu-btn {
 
-    background-color: black; /* Change button color */
+    background-color: black; /* Button colour */
     border: none;
     padding: 10px;
     width: 120px;
@@ -251,7 +234,7 @@ of each page on the Hstox Website.. */
 .menu-btn a {
 
     text-decoration: none;
-    color: white; /* Text color */
+    color: white; /* Text colour */
     font-size: 18px;
     font-weight: bold;
     display: block;
@@ -271,9 +254,7 @@ except the Home and About Us page. */
     background-color: black;
     color: greenyellow;
     font-size: 20px;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
-
 
 /* This is a configurations for every lead boostrap paragraph or head type used of the Hstox Website. */
 .lead{
@@ -282,6 +263,7 @@ except the Home and About Us page. */
     font-weight: bolder;
     text-align: center;
 }
+
 
 /* This is a configurations for the titles describing the photographic type on the Our Work page.  */
 .type-title{
@@ -336,7 +318,7 @@ on the Hstox book a session page. */
 }
 
 
-/* These are the configurations for the Award titles on the Hstox Awards Page. *//* These are the configurations for the Award titles on the Hstox Awards Page.*/
+/* These are the configurations for the Award titles on the Hstox Awards Page. */
 .award-a{
     font-size: 25px;
     font-weight: bold;
@@ -435,7 +417,8 @@ on tablet screens. */
         text-align: justify;
     }
 
-
+    
+/* These are the media screen configurations for the Hstox Book a session form on various mobile devices and a tablet. */
 /* This media query is for the booking form on
 smaller phones */
 @media all and (max-width: 480px){
