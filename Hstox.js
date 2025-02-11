@@ -1,36 +1,3 @@
-
-// This is my code for the submission of the booking form and it should display a message when the booking is successful and has been fully filled out.
-document.addEventListener("DOMContentLoaded", function () {
-    const form = document.querySelector(".needs-validation");
-
-    form.addEventListener("submit", function (event) {
-        event.preventDefault(); // This is done to stop the form from submitting and reloading the page, so that the page can be validated withput it
-        //  removing the data that has been entered.
-        let missingFields = [];
-
-        // This is performed to get all the required fields
-        let requiredInputs = form.querySelectorAll("input[required], select[required]");
-
-        requiredInputs.forEach(input => {
-            if (!input.value.trim()) {
-                missingFields.push(input.placeholder || input.id); 
-                input.style.border = "2px solid red";  // This is the code used to highlight the missing fields in red.
-            } else {
-                input.style.border = ""; // This is the code used to remove the red border from the missing fields after they have been filled out.
-            }
-        });
-
-        // This is the code used to  alert the user with any  missing fields
-        if (missingFields.length > 0) {
-            alert("Please fill in the following required fields:\n\n" + missingFields.join("\n"));
-        } else {
-            form.submit(); // The form.submit attribute used here submits the form if all fields are filled
-        }
-    });
-});
-
-
-
 // This is my code for the submission message to also appear 
 // below the booking form's submit button after the pop-up alert message has been displayed from the previous code above.
 let form = document.getElementsByTagName("form")[0];
@@ -68,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
             availabilityContainer.appendChild(dayElement);
         }
     }
+
 //The code below is used to handle the next available dates of the booking form and the availability of the days 
 // for booking the Hstox photography sessions after the user submits the form.
     renderAvailability(); // This function is called to show the availability of the days for booking the Hstox photography sessions.
