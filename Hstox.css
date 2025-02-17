@@ -132,6 +132,7 @@ text-align: center;
 
 /* This is the configuration for the Nostalgia Award on the Awards page of the Hstox Website. */
 .NostalgiaAward{
+    text-align: left;
 color: black;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -189,13 +190,13 @@ on the Book a session page of the Hstox Website. */
 
 .book-input{
     background-color:paleturquoise;
-    border-color:paleturquoise;
+    /* border-color:paleturquoise; */
     align-items: center;
 }
 
 .book-submit-button{
     background-color:mediumspringgreen;
-    border-color: mediumspringgreen;
+    /* border-color: mediumspringgreen; */
     margin-top: 20px;
 }
 
@@ -320,6 +321,7 @@ on the Hstox book a session page. */
 
 /* These are the configurations for the Award titles on the Hstox Awards Page. */
 .award-a{
+    float: right;
     font-size: 25px;
     font-weight: bold;
 
